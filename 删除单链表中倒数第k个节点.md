@@ -68,9 +68,6 @@ public:
         dummyHead->next = head;
         ListNode* first = head;
         ListNode* second = dummyHead;
-        // while(n){
-        //     first = first->next;
-        // }
         for(int i=0; i<n; i++){
             first = first->next;
         }
